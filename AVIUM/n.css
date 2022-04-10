@@ -1,0 +1,154 @@
+.img{
+	width: 100%;
+}
+.newsV,.news2{
+	margin: 10px;
+	padding-bottom: 20px;
+	
+}
+p{
+	background: #333333;
+}
+.p{
+	color: white;
+}
+body {
+	background: black;
+}
+.newsContener{
+	background: #333333;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0,0.2) 0 4px 2px -2px;
+	font-weight: 100;
+	margin: 48px auto;
+	width: 50rem auto;
+}
+
+.logo{
+				display: flex;
+				width: 100%;
+				height: 1.4cm;
+				justify-content: center;
+				background: #191919;
+				
+}
+.graficlogo{
+				height: 1.4cm;
+				box-sizing: border-box;
+			 max-width: 100%;
+}
+nav{
+				
+				
+				
+				color: black;
+}
+.a{
+				text-decoration: none;
+				color: white;
+				display: inline-block;
+				margin-left: 25px;
+				
+}
+.h{
+	padding: 5%;
+}
+				
+				
+.topnav{
+				
+				font-size: 14px;
+				margin-top: 10px;
+				display: block;
+				text-align: center;
+				color: white;
+				margin-bottom: 50px;
+}
+a:hover{
+	border-bottom: 5px solid white;
+}
+.icon{
+	display: none;
+}
+@media screen and (max-width: 768px){
+	a:not(:first-chaild){
+		display: none;
+	}
+	.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: black;
+	}
+	nav{
+		width: 100%;
+		height: 100px;
+	}
+	.topnav.responsive{
+		position: relative;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+.mw-100{
+	max-width: 100%;
+	display: block;
+	}
+.img{
+	display: block;
+}
+footer{
+	background: #191919;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	
+}
+.f{
+	color: white;
+	padding-top: 25px;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	margin-left: 10px;
+	text-decoration: none;
+}
+footer nav a:hover{
+	border-bottom: 1px solid white;
+}
+.soc{
+	text-align: center;
+	padding-bottom: 1%;
+	
+}
+.k{
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+}
+.fg{
+	padding-top: 40px;
+	margin-bottom: 1%;
+	
+}
+h1{
+	color: gray;
+}
+	
+
+
+
+
+
